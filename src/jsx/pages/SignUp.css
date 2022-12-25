@@ -1,0 +1,41 @@
+:root {
+  --move: #9747ff;
+  --white: #ffffff;
+  --black: rgba(0, 0, 0, 0.338);
+  --light: #a6a1a11d;
+  --font-roboto: "Roboto";
+  --font-Poppins: "Poppins";
+  --Color-secondary : #AE70FF;
+}
+#page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  height: 517px;
+  width: 404px;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px var(--black);
+}
+span{
+  color: #9747ff;
+}
+#label_terms{
+  font-size: small;
+}
+#signup_btn{
+  width: 350px;
+  height: 38px;
+  background-color: var(--Color-secondary);
+  border: none;
+  color: var(--white);
+}
+#signup_btn:hover{
+  background-color: var(--move);
+}
