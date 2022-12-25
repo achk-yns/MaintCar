@@ -6,9 +6,9 @@ import car from "../../images/Vector.png";
 import lightning from "../../images/Lightning.png";
 
 import "../../../src/icons/uicons-regular-rounded/css/uicons-regular-rounded.css";
+function UpdateVehicule() {
 
-const Register = () => {
-  const [value, setValue] = React.useState(30);
+    const [value, setValue] = React.useState(30);
   const [registrationData, setRegistrationData] = useState({});
   const [fileName, setFileName] = useState();
 
@@ -67,7 +67,7 @@ const Register = () => {
                 <div className="card">
                   <div className="card-header">
                     <img src={car} width="50px" />
-                    <h1>Ajouter Véhicule</h1>
+                    <h1>Update Véhicule</h1>
                   </div>
                   <div className="card-body">
                     <div className="basic-form">
@@ -211,6 +211,6 @@ const Register = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Register;
+export default UpdateVehicule ;

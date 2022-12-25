@@ -43,10 +43,10 @@ function VehiculeSpace() {
             </div>
           </div>
           <div className="card-btns">
-            <div className="editBtn">
+            <Link to={"/edit-vehicule"} className="editBtn">
               <img src={btnpiece} />
               <img src={editBtn} className="edit-btn" />
-            </div>
+            </Link>
             <div className="delBtn">
               <img src={btnpiece2} />
               <img src={delBtn} className="del-btn" />

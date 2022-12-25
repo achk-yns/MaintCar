@@ -15,6 +15,7 @@ import Registration from "./pages/Registration";
 import VehiculeSpace from "./pages/VehiculeSpace";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login.jsx";
+import UpdateVehicule from "./pages/UpdateVehicule";
 
 /// Widget
 
@@ -27,6 +28,10 @@ const Markup = () => {
   const routes = [
     { url: "page-register", component: Registration },
     { url: "vehicule-space", component: VehiculeSpace },
+    { url: "edit-vehicule", component: UpdateVehicule },
+
+
+
     { url: "sign-up", component: SignUp },
     { url: "login", component: Login },
   ];
@@ -101,7 +106,7 @@ const Markup = () => {
     //       </div>
     //     </div>
     //   </div>
-    // </Router>
+    // </Router>lnpm stqart
   );
 };
 
